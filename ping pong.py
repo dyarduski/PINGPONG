@@ -1,6 +1,6 @@
 
 import sys
-sys.path.append(r"C:\Users\Dyar Alsofi\Desktop\venv\Lib\site-packages")
+sys.path.append(r"venv\Lib\site-packages")
 from collide import *
 import pyglet
 from pyglet.window import key
