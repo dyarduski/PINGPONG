@@ -95,9 +95,9 @@ score = pyglet.text.Label('Hello, world',
                          )
 
 
-player2 = PlatForm(r"C:\Users\Dyar Alsofi\Desktop\oing pong\Include\Paddle.png",1100-40,250)
-player1 = PlatForm(r"C:\Users\Dyar Alsofi\Desktop\oing pong\Include\Paddle.png",abs(40-player2.image.width),250)
-ballsprite = PingPongball(r"C:\Users\Dyar Alsofi\Desktop\oing pong\Include\Ball.png",WIDTH//2,HEIGHT//2)
+player2 = PlatForm(r"Paddle.png",1100-40,250)
+player1 = PlatForm(r"Paddle.png",abs(40-player2.image.width),250)
+ballsprite = PingPongball(r"Ball.png",WIDTH//2,HEIGHT//2)
 
 vel = 3.5
 timeforchange = time.time()
